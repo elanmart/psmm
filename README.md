@@ -4,6 +4,6 @@ This repo contains imlementation of the the
 
 # Description
 
-See my [blog post](https://elanmart.github.io/2018-02-10-psmm.md) for details.
+See my [blog post](https://elanmart.github.io/2018-02-10-psmm) for details.
 
 See [model.py](https://github.com/elanmart/psmm/blob/master/psmm/model.py) for the core of this architecture.
