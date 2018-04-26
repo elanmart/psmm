@@ -32,7 +32,7 @@ def train(data, output, step, bptt, lr, clip, timeout, epochs, batch_size, lstm_
 @click.argument("data",  help="Path to a the dataset directory. Should contains at the 'test.tokens' file")
 @click.option("--cuda",  is_flag=True,  help="Fun fact: CUDA stands for Compute Unified Device Architecture")
 def evaluate(model, data, cuda):
-    pass
+    raise NotImplementedError()
 
 
 @cli.command()
@@ -41,7 +41,7 @@ def evaluate(model, data, cuda):
 @click.option("--bootstrap", default=25,   help="Number of words to read from a document before starting to sample")
 @click.option("--cuda",      is_flag=True, help="Fun fact: CUDA stands for Compute Unified Device Architecture")
 def sample(model, data, bootstrap, cuda):
-    pass
+    raise NotImplementedError()
 
 
 if __name__ == '__main__':
